@@ -5,13 +5,13 @@
 Other  COM   PWM  Analog  INT  Arduino*           Arduino*  INT  Analog  PWM   COM      Other
 =============================================================================================
                                   1-------------------
-  SCK*/RX2  TCC01    *     *    5 | A5             A4 | 4    *    *     TCC00 MOSI*/TX2  REF
+  SCK*/RX1  TCC01    *     *    5 | A5             A4 | 4    *    *     TCC00 MOSI*/TX1  REF
     MOSI*   TCC02          *    8 | A8 (XIN)       A2 | 2    *    *                      DAC
     SCK*    TCC03          *    9 | A9 (XOUT)     Vdd |
   SDA/MISO*  TC10    *    NMI  14 | A14           Gnd |
    SCL/SS*   TC11    *     *   15 | A15           A25 | 25                    USB/DP
 BOOT                           28 | A28/RST       A24 | 24                    USB/DM
-SWDCLK  TX1/MISO*              30 | A30           A31 | 31   *                RX1/SS*    SWDIO
+SWDCLK                         30 | A30           A31 | 31   *                          SWDIO
                                    -------------------
 
 * Most pins can be used for more than one function. When using PIN_MAP_STANDARD, the port
