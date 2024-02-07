@@ -200,30 +200,21 @@ static const uint8_t ATN = PIN_ATN;
  */
 // Serial1
 #if defined PIN_MAP_STANDARD
-#define PIN_SERIAL1_RX       (31ul)
-#define PIN_SERIAL1_TX       (30ul)
+//#define PIN_SERIAL1_RX       (31ul)
+//#define PIN_SERIAL1_TX       (30ul)
+#define PIN_SERIAL1_RX       (5ul)
+#define PIN_SERIAL1_TX       (4ul)
 #elif defined PIN_MAP_COMPACT
 #define PIN_SERIAL1_RX       (11ul)
 #define PIN_SERIAL1_TX       (10ul)
 #endif
 
-#define PAD_SERIAL1_TX       (UART_TX_PAD_0)
-#define PAD_SERIAL1_RX       (SERCOM_RX_PAD_1)
-#define SERCOM_INSTANCE_SERIAL1       &sercom1
-
-// Serial2
-#if defined PIN_MAP_STANDARD
-#define PIN_SERIAL2_RX       (5ul)
-#define PIN_SERIAL2_TX       (4ul)
-#elif defined PIN_MAP_COMPACT
-#define PIN_SERIAL2_RX       (2ul)
-#define PIN_SERIAL2_TX       (1ul)
-#endif
-
-#define PAD_SERIAL2_TX       (UART_TX_PAD_2)
-#define PAD_SERIAL2_RX       (SERCOM_RX_PAD_3)
-#define SERCOM_INSTANCE_SERIAL2       &sercom0
-
+//#define PAD_SERIAL1_TX       (UART_TX_PAD_0)
+//#define PAD_SERIAL1_RX       (SERCOM_RX_PAD_1)
+//#define SERCOM_INSTANCE_SERIAL1       &sercom1
+#define PAD_SERIAL1_TX       (UART_TX_PAD_2)
+#define PAD_SERIAL1_RX       (SERCOM_RX_PAD_3)
+#define SERCOM_INSTANCE_SERIAL1       &sercom0
 
 /*
  * SPI Interfaces
@@ -234,25 +225,7 @@ static const uint8_t ATN = PIN_ATN;
 #define SPI_INTERFACES_COUNT 0
 #endif
 
-#if defined(ONE_WIRE) && defined (ONE_SPI)
-  #if defined PIN_MAP_STANDARD
-    #define PIN_SPI_MISO         (30u)
-    #define PIN_SPI_MOSI         (8u)
-    #define PIN_SPI_SCK          (9u)
-    #define PIN_SPI_SS           (31u)
-  #elif defined PIN_MAP_COMPACT
-    #define PIN_SPI_MISO         (10u)
-    #define PIN_SPI_MOSI         (3u)
-    #define PIN_SPI_SCK          (4u)
-    #define PIN_SPI_SS           (11u)
-  #endif
-
-  #define PERIPH_SPI           sercom1
-  #define PAD_SPI_TX           SPI_PAD_2_SCK_3
-  #define PAD_SPI_RX           SERCOM_RX_PAD_0
-
-// ONE_UART and ONE_SPI
-#else
+#if defined (ONE_SPI)
   #if defined PIN_MAP_STANDARD
     #define PIN_SPI_MISO         (14u)
     #define PIN_SPI_MOSI         (4u)
@@ -293,8 +266,8 @@ static const uint8_t SCK  = PIN_SPI_SCK ;
 #define PIN_WIRE_SCL         (6u)
 #endif
 
-#define PERIPH_WIRE          sercom0
-#define WIRE_IT_HANDLER      SERCOM0_Handler
+#define PERIPH_WIRE          sercom2
+#define WIRE_IT_HANDLER      SERCOM2_Handler
 
 static const uint8_t SDA = PIN_WIRE_SDA;
 static const uint8_t SCL = PIN_WIRE_SCL;
@@ -332,10 +305,8 @@ static const uint8_t SCL = PIN_WIRE_SCL;
  *	=========================
 */
 extern SERCOM sercom0;
-extern SERCOM sercom1;
 
 extern Uart Serial1;
-extern Uart Serial2;
 
 #endif
 
