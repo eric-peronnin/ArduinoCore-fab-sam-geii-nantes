@@ -19,7 +19,7 @@ It offers support for:
 
 To install, simply add the following URL to "Additional Boards Manager URLs" in the Arduino IDE:
 
-https://raw.githubusercontent.com/qbolsee/ArduinoCore-fab-sam-geii-nantes/master/json/package_Fab_SAM_index.json
+https://raw.githubusercontent.com/eric-peronnin/ArduinoCore-fab-sam-geii-nantes/master/json/package_Fab_SAM_index.json
 
 
 # Description
