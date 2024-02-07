@@ -10,7 +10,7 @@
             },
             "platforms": [
                 {
-                    "name": "Fab SAM GEII Nantes core for Arduino",
+                    "name": "Fab SAM core for Arduino",
                     "architecture": "samd",
                     "version": "1.6.18-alpha1",
                     "category": "Contributed",
