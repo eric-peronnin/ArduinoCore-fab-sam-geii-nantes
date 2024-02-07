@@ -1,4 +1,4 @@
-# Fab SAM D|L|C Core for Arduino
+# Fab SAM version GEII Nantes D|L|C Core for Arduino
 
 ## Quitck installation guide
 
