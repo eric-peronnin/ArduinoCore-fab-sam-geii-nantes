@@ -124,28 +124,28 @@
                     "systems": [
                         {
                             "host": "i686-mingw32",
-                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.9.0/bossac-1.9.0-windows.zip",
+                            "url": "https://github.com/eric-peronnin/ArduinoCore-fab-sam-geii-nantes/master/tools/bossac/bossac-1.9.0-windows.zip",
                             "archiveFileName": "bossac-1.9.0-windows.zip",
                             "checksum": "SHA-256:1677e81bde9c105399f18e8db59089a2464085c4bb250baaefad13a939330b14",
                             "size": "347565"
                         },
                         {
                             "host": "x86_64-pc-linux-gnu",
-                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.9.0/bossac-1.9.0-x86_64-linux-gnu.tar.bz2",
+                            "url": "https://github.com/eric-peronnin/ArduinoCore-fab-sam-geii-nantes/master/tools/bossac/bossac-1.9.0-x86_64-linux-gnu.tar.bz2",
                             "archiveFileName": "bossac-1.9.0-x86_64-linux-gnu.tar.bz2",
                             "checksum": "SHA-256:b55a88b5b431ac7d5367ede0a8a5cbded2ad9f6c5ecede906dacfbb52578f428",
                             "size": "38374"
                         },
                         {
                             "host": "i686-pc-linux-gnu",
-                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.9.0/bossac-1.9.0-i686-linux-gnu.tar.bz2",
+                            "url": "https://github.com/eric-peronnin/ArduinoCore-fab-sam-geii-nantes/master/tools/bossac//bossac-1.9.0-i686-linux-gnu.tar.bz2",
                             "archiveFileName": "bossac-1.9.0-i686-linux-gnu.tar.bz2",
                             "checksum": "SHA-256:4f7553978ef4d8e9cbdafd4badf598cdc9332753cf6c3d67c65633e6640783f8",
                             "size": "40871"
                         },
                         {
                             "host": "x86_64-apple-darwin",
-                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.9.0/bossac-1.9.0-mac-os.tar.bz2",
+                            "url": "https://github.com/eric-peronnin/ArduinoCore-fab-sam-geii-nantes/master/tools/bossac//bossac-1.9.0-mac-os.tar.bz2",
                             "archiveFileName": "bossac-1.9.0-mac-os.tar.bz2",
                             "checksum": "SHA-256:cfead2275d1509ab8122d2dc5e4e899d3dac41e8937d46248f271fa6dcc18f73",
                             "size": "31120"
@@ -158,28 +158,28 @@
                     "systems": [
                         {
                             "host": "i686-mingw32",
-                            "url": "https://github.com/qbolsee/CMSIS-Atmel/releases/download/CMSIS-Atmel-1.0.0-mattairtech-2/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                            "url": "https://github.com/eric-peronnin/ArduinoCore-fab-sam-geii-nantes/master/tools/CMSIS-Atmel/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
                             "archiveFileName": "CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
                             "checksum": "SHA-256:6d592de468028e76c085a7a416939a39389a06f3f03331cdc04a50e443ea4e9a",
                             "size": "1977965"
                         },
                         {
                             "host": "x86_64-pc-linux-gnu",
-                            "url": "https://github.com/qbolsee/CMSIS-Atmel/releases/download/CMSIS-Atmel-1.0.0-mattairtech-2/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                            "url": "https://github.com/eric-peronnin/ArduinoCore-fab-sam-geii-nantes/master/tools/CMSIS-Atmel/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
                             "archiveFileName": "CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
                             "checksum": "SHA-256:6d592de468028e76c085a7a416939a39389a06f3f03331cdc04a50e443ea4e9a",
                             "size": "1977965"
                         },
                         {
                             "host": "i686-pc-linux-gnu",
-                            "url": "https://github.com/qbolsee/CMSIS-Atmel/releases/download/CMSIS-Atmel-1.0.0-mattairtech-2/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                            "url": "https://github.com/eric-peronnin/ArduinoCore-fab-sam-geii-nantes/master/tools/CMSIS-Atmel/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
                             "archiveFileName": "CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
                             "checksum": "SHA-256:6d592de468028e76c085a7a416939a39389a06f3f03331cdc04a50e443ea4e9a",
                             "size": "1977965"
                         },
                         {
                             "host": "x86_64-apple-darwin",
-                            "url": "https://github.com/qbolsee/CMSIS-Atmel/releases/download/CMSIS-Atmel-1.0.0-mattairtech-2/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                            "url": "https://github.com/eric-peronnin/ArduinoCore-fab-sam-geii-nantes/master/tools/CMSIS-Atmel/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
                             "archiveFileName": "CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
                             "checksum": "SHA-256:6d592de468028e76c085a7a416939a39389a06f3f03331cdc04a50e443ea4e9a",
                             "size": "1977965"
