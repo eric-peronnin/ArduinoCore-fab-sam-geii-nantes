@@ -1,7 +1,7 @@
 {
     "packages": [
         {
-            "name": "Fab_SAM_GEII_Nantes_Arduino",
+            "name": "Fab_SAM_Arduino",
             "maintainer": "GEII Nantes",
             "websiteURL": "https://github.com/eric-peronnin/ArduinoCore-fab-sam-geii-nantes",
             "email": "",
