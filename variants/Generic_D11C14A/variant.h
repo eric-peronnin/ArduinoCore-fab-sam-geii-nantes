@@ -225,6 +225,11 @@ static const uint8_t ATN = PIN_ATN;
 #define SPI_INTERFACES_COUNT 0
 #endif
 
+#define PIN_SPI_MISO         (14u)
+#define PIN_SPI_MOSI         (4u)
+#define PIN_SPI_SCK          (5u)
+#define PIN_SPI_SS           (15u)
+
 #if defined (ONE_SPI)
   #if defined PIN_MAP_STANDARD
     #define PIN_SPI_MISO         (14u)
