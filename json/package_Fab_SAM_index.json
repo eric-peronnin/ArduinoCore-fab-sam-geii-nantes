@@ -14,9 +14,9 @@
                     "architecture": "samd",
                     "version": "1.11.0",
                     "category": "Contributed",
-                    "url": "https://github.com/eric-peronnin/ArduinoCore-fab-sam-geii-nantes/releases/download/1.11.0/Fab_SAM_Core_for_Arduino-1.11.0.tar.bz2",
-                    "archiveFileName": "Fab_SAM_Core_for_Arduino-1.11.0.tar.bz2",
-                    "checksum": "SHA-256:f015d271ab6f1d0b785c8a0c8c5ea55df3d2d7e810250ab7b2718c9b12db200d",
+                    "url": "https://github.com/eric-peronnin/ArduinoCore-fab-sam-geii-nantes/archive/refs/heads/master.zip",
+                    "archiveFileName": "master.zip",
+                    "checksum": "SHA-256:fcf8a6e36ac151a6f27eaae9c66a0cc370ff06a1cebd0314c07be6b0783415aa",
                     "size": "356710",
                     "boards": [
                         {
