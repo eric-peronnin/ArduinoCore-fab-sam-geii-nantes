@@ -129,7 +129,7 @@ extern "C"
  * None of these defines are currently used by the core.
  */
 #if defined PIN_MAP_STANDARD
-#define PIN_LED_13           (5u)
+#define PIN_LED_13           (2u)
 #define PIN_LED_RXL          (8u)
 #define PIN_LED_TXL          (9u)
 #elif defined PIN_MAP_COMPACT
@@ -202,19 +202,27 @@ static const uint8_t ATN = PIN_ATN;
 #if defined PIN_MAP_STANDARD
 //#define PIN_SERIAL1_RX       (31ul)
 //#define PIN_SERIAL1_TX       (30ul)
-#define PIN_SERIAL1_RX       (5ul)
+#if defined SERIAL_PA04_PA05
 #define PIN_SERIAL1_TX       (4ul)
+#define PIN_SERIAL1_RX       (5ul)
+#elif defined SERIAL_PA11_PA10
+#define PIN_SERIAL1_TX       (8ul)
+#define PIN_SERIAL1_RX       (9ul)
+#endif
 #elif defined PIN_MAP_COMPACT
-#define PIN_SERIAL1_RX       (11ul)
 #define PIN_SERIAL1_TX       (10ul)
+#define PIN_SERIAL1_RX       (11ul)
 #endif
 
-//#define PAD_SERIAL1_TX       (UART_TX_PAD_0)
-//#define PAD_SERIAL1_RX       (SERCOM_RX_PAD_1)
-//#define SERCOM_INSTANCE_SERIAL1       &sercom1
+#if defined SERIAL_PA04_PA05
+#define SERCOM_INSTANCE_SERIAL1       &sercom0
 #define PAD_SERIAL1_TX       (UART_TX_PAD_2)
 #define PAD_SERIAL1_RX       (SERCOM_RX_PAD_3)
-#define SERCOM_INSTANCE_SERIAL1       &sercom0
+#else
+#define PAD_SERIAL1_TX       (UART_TX_PAD_2)
+#define PAD_SERIAL1_RX       (SERCOM_RX_PAD_3)
+#define SERCOM_INSTANCE_SERIAL1       &sercom1
+#endif
 
 /*
  * SPI Interfaces
@@ -271,8 +279,8 @@ static const uint8_t SCK  = PIN_SPI_SCK ;
 #define PIN_WIRE_SCL         (6u)
 #endif
 
-#define PERIPH_WIRE          sercom2
-#define WIRE_IT_HANDLER      SERCOM2_Handler
+#define PERIPH_WIRE          sercom1
+#define WIRE_IT_HANDLER      SERCOM1_Handler
 
 static const uint8_t SDA = PIN_WIRE_SDA;
 static const uint8_t SCL = PIN_WIRE_SCL;
@@ -310,8 +318,9 @@ static const uint8_t SCL = PIN_WIRE_SCL;
  *	=========================
 */
 extern SERCOM sercom0;
+extern SERCOM sercom1;
 
-extern Uart Serial1;
+extern Uart Serial;
 
 #endif
 
