@@ -17,7 +17,7 @@
                     "url": "https://github.com/eric-peronnin/ArduinoCore-fab-sam-geii-nantes/releases/download/1.11.0/ArduinoCore-fab-sam-geii-nantes-master.zip",
                     "archiveFileName": "ArduinoCore-fab-sam-geii-nantes-master.zip",
                     "checksum": "SHA-256:319db6dcc65182a9d54c9868c790028432a976dc6c4d1c232546882c0e0a580f",
-                    "size": "34885560",
+                    "size": "4154823",
                     "boards": [
                         {
                             "name": "Generic_D11C14A"
